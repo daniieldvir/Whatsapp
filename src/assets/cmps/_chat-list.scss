@@ -1,0 +1,29 @@
+.contact-list {
+  display: flex;
+  flex-direction: column;
+
+  list-style: none;
+  height: 680px;
+  overflow: scroll;
+
+  margin: 0;
+  padding: 0;
+
+  li {
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .contact-list {
+    padding: 10px;
+    height: 500px;
+
+    li:first-child {
+      border-top: 1px solid $clr1;
+    }
+  }
+}

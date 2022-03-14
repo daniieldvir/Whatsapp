@@ -1,0 +1,27 @@
+.main-header {
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+
+  background-color: $clr3;
+  height: 70px;
+
+  p {
+    color: white;
+    padding-bottom: 20px;
+    width: 100px;
+    font-size: rem(15px);
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  p:nth-child(2) {
+    border-bottom: 3px solid white;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .main-header {
+    display: none;
+  }
+}

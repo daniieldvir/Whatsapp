@@ -1,0 +1,34 @@
+.chat-filter {
+  display: none;
+}
+@media screen and (min-width: 1080px) {
+  .chat-filter {
+    display: block;
+    margin: 15px;
+
+    .inputs-container {
+      display: flex;
+      align-items: center;
+
+      background-color: $clr1;
+      border: 1px solid $clr1;
+      border-radius: 10px;
+      width: 100%;
+      height: 30px;
+
+      input {
+        border: none;
+        background-color: $clr1;
+      }
+
+      svg {
+        width: 30px;
+        position: left;
+        padding-left: 10px;
+        margin-right: 15px;
+
+        color: gray;
+      }
+    }
+  }
+}

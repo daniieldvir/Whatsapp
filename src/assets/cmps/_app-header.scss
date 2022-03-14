@@ -1,0 +1,15 @@
+.app-header {
+  display: none;
+}
+
+@media screen and (min-width: 1080px) {
+  .app-header {
+    display: block;
+    background-color: $clr4;
+    height: 250px;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+  }
+}

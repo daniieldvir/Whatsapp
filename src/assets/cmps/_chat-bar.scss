@@ -1,0 +1,30 @@
+.chat-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $clr1;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  textarea {
+    width: 90%;
+    height: 80%;
+    border: 1px solid $clr1;
+    border-radius: 10px;
+  }
+
+  svg {
+    color: gray;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .chat-bar {
+    position: inherit;
+  }
+}
