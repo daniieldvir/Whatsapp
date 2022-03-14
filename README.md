@@ -1,7 +1,7 @@
 # Demo whatsApp 
 
 <p> This is a demo WhatsApp app.</p>
-<p> you can search for a chat from the dummy data and read it.</p>
+<p> You can search for a chat from the dummy data and read it.</p>
 
 <p>Mobile is responsive, you can also search for a chat from the dummy data and read it, in the chat you can go back to the start of the app by clicking the arrow</p>
 
